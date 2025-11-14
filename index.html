@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARP Studio | Poonam Rohilla | Luxury Beauty Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="notification" id="notification">
+        Appointment booked successfully! Confirmation email sent.
+    </div>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">MARP <span>Studio</span></a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#" id="appointment-link">Appointment</a></li>
+                </ul>
+                <button class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+<section class="hero" id="home">
+        <div class="container content-over-particles">
+            <div class="hero-content">
+                <h1>Enhance Your Natural Beauty</h1>
+                <p>Welcome to MARP Studio, where professional makeup artists creates stunning looks for every occasion. Experience the perfect blend of artistry and elegance.</p>
+                <a href="#" class="btn" id="hero-appointment">Book Appointment</a>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container content-over-particles">
+            <div class="section-title">
+                <h2>About Poonam Rohilla</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="images/marp.png" alt="MARP STUDIO">
+                </div>
+                <div class="about-text">
+                    <h3>Professional Makeup Artist & Beauty Expert</h3>
+                    <p>With over 5+ years of experience in the beauty industry,I Poonam Rohilla has established MARP Studio as a premier destination for makeup, hairstyling, and bodywork services.My passion for enhancing natural beauty and attention to detail has made me a sought-after artist for brides, celebrities, and clients seeking exceptional beauty services.</p>
+                    <p>I continuously updates hmy skills with the latest techniques and trends, ensuring that every client receives personalized, high-quality service that exceeds expectations.My artistic vision and dedication to perfection have earned me a reputation as one of the most talented makeup artists in the industry.</p>
+                    <a href="#services" class="btn">Explore Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="container content-over-particles">
+            <div class="section-title">
+                <h2>Our Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="images/bridal-makeup.jpg" alt="Makeup Services">
+                    </div>
+                    <div class="service-content">
+                        <h3>Makeup Services</h3>
+                        <p>Professional makeup application for all occasions, tailored to enhance your natural features and complement your style. We use premium products to ensure long-lasting, flawless results.</p>
+                        <ul class="service-list">
+                            <li>Bridal Makeup</li>
+                            <li>Engagement Makeup</li>
+                            <li>Party & Event Makeup</li>
+                            <li>Editorial & Photoshoot</li>
+                        </ul>
+                        <div class="service-btn">
+                            <button class="btn service-detail-btn" data-service="makeup">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="images/hairstyle.png" alt="Hairstyle Services">
+                    </div>
+                    <div class="service-content">
+                        <h3>Hairstyle Services</h3>
+                        <p>Expert hairstyling that complements your makeup and outfit, creating a complete, polished look for your special day. From elegant updos to flowing curls, we create the perfect style for you.</p>
+                        <ul class="service-list">
+                            <li>Bridal Hairstyles</li>
+                            <li>Engagement Hairstyles</li>
+                            <li>Party Hairstyles</li>
+                            <li>Traditional Hairstyles</li>
+                        </ul>
+                        <div class="service-btn">
+                            <button class="btn service-detail-btn" data-service="hairstyles">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="images/hero-marp.jpg" alt="Pre-Wedding Services">
+                    </div>
+                    <div class="service-content">
+                        <h3>Pre-Wedding Services</h3>
+                        <p>Complete bridal preparation packages to ensure you look and feel your absolute best on your special day. Our comprehensive services cover everything from skincare to final touches.</p>
+                        <ul class="service-list">
+                            <li>Bridal Packages</li>
+                            <li>Groom Packages</li>
+                            <li>Family Packages</li>
+                            <li>Complete Wedding Packages</li>
+                        </ul>
+                        <div class="service-btn">
+                            <button class="btn service-detail-btn" data-service="prewedding">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="images/engagement-3.jpg" alt="Destination Services">
+                    </div>
+                    <div class="service-content">
+                        <h3>Destination Services</h3>
+                        <p>Travel with us to your dream destination for a perfect wedding or special event. We bring our expertise and premium products to create magical moments wherever you are.</p>
+                        <ul class="service-list">
+                            <li>Destination Weddings</li>
+                            <li>International Events</li>
+                            <li>Beach Weddings</li>
+                            <li>Mountain Weddings</li>
+                        </ul>
+                        <div class="service-btn">
+                            <button class="btn service-detail-btn" data-service="destination">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&q=80" alt="Beauty Work Services">
+                    </div>
+                    <div class="service-content">
+                        <h3>Beauty Work</h3>
+                        <p>Pampering treatments to prepare your skin for special occasions, ensuring you look and feel your absolute best. Our luxurious treatments will leave your skin glowing and radiant.</p>
+                        <ul class="service-list">
+                            <li>Skin Treatments</li>
+                            <li>Body Polishing</li>
+                            <li>Facials</li>
+                            <li>Detox Treatments</li>
+                        </ul>
+                        <div class="service-btn">
+                            <button class="btn service-detail-btn" data-service="beauty">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&q=80" alt="Nail Art Services">
+                    </div>
+                    <div class="service-content">
+                        <h3>Nail Art</h3>
+                        <p>Creative and elegant nail designs to complement your overall look. From simple elegance to intricate designs, we create beautiful nails that complete your style.</p>
+                        <ul class="service-list">
+                            <li>Bridal Nail Art</li>
+                            <li>Gel Manicures</li>
+                            <li>Nail Extensions</li>
+                            <li>Custom Nail Designs</li>
+                        </ul>
+                        <div class="service-btn">
+                            <button class="btn service-detail-btn" data-service="nailart">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="makeup-detail" class="service-detail">
+        <div class="container content-over-particles">
+            <div class="section-title">
+                <h2>Makeup Services</h2>
+            </div>
+            <div class="service-subtypes">
+                <div class="service-subtype">
+                    <i class="fas fa-heart"></i>
+                    <h3>Bridal Normal</h3>
+                    <p>Traditional bridal makeup with classic elegance, perfect for traditional ceremonies and family functions.</p>
+                    <div class="price">Starting at ₹15,000</div>
+                    <button class="btn book-service-btn" data-service="Bridal Normal Makeup">Book Appointment</button>
+                </div>
+                <div class="service-subtype">
+                    <i class="fas fa-gem"></i>
+                    <h3>Bridal HD</h3>
+                    <p>High-definition makeup that looks flawless in photos and videos, with long-lasting coverage.</p>
+                    <div class="price">Starting at ₹20,000</div>
+                    <button class="btn book-service-btn" data-service="Bridal HD Makeup">Book Appointment</button>
+                </div>
+                <div class="service-subtype">
+                    <i class="fas fa-spray-can"></i>
+                    <h3>Bridal Airbrush</h3>
+                    <p>Flawless, lightweight airbrush makeup that provides even coverage and lasts all day.</p>
+                    <div class="price">Starting at ₹25,000</div>
+                    <button class="btn book-service-btn" data-service="Bridal Airbrush Makeup">Book Appointment</button>
+                </div>
+                <div class="service-subtype">
+                    <i class="fas fa-star"></i>
+                    <h3>Bridal Celebrity</h3>
+                    <p>Red carpet glamour with premium products and techniques used by celebrities.</p>
+                    <div class="price">Starting at ₹35,000</div>
+                    <button class="btn book-service-btn" data-service="Bridal Celebrity Makeup">Book Appointment</button>
+                </div>
+                <div class="service-subtype">
+                    <i class="fas fa-crown"></i>
+                    <h3>Bridal Signature</h3>
+                    <p>Poonam's exclusive signature bridal look, customized to enhance your unique features.</p>
+                    <div class="price">Starting at ₹30,000</div>
+                    <button class="btn book-service-btn" data-service="Bridal Signature Makeup">Book Appointment</button>
+                </div>
+                <div class="service-subtype">
+                    <i class="fas fa-ring"></i>
+                    <h3>Engagement Makeup</h3>
+                    <p>Romantic and radiant makeup for your engagement ceremony, designed for photography.</p>
+                    <div class="price">Starting at ₹12,000</div>
+                    <button class="btn book-service-btn" data-service="Engagement Makeup">Book Appointment</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="appointment-page" class="appointment-page">
+        <div class="container content-over-particles">
+            <div class="section-title">
+                <h2>Book Your Appointment</h2>
+            </div>
+            
+            <div class="appointment-form">
+                <h3>Your Information</h3>
+                <form id="appointmentForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="client-name" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" id="client-phone" placeholder="Phone Number" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="client-email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" id="service-type" required>
+                                <option value="" disabled selected>Select Service Type</option>
+                                <option value="Bridal Normal Makeup">Bridal Normal Makeup</option>
+                                <option value="Bridal HD Makeup">Bridal HD Makeup</option>
+                                <option value="Bridal Airbrush Makeup">Bridal Airbrush Makeup</option>
+                                <option value="Bridal Celebrity Makeup">Bridal Celebrity Makeup</option>
+                                <option value="Bridal Signature Makeup">Bridal Signature Makeup</option>
+                                <option value="Engagement Makeup">Engagement Makeup</option>
+                                <option value="Party Makeup">Party Makeup</option>
+                                <option value="Hairstyling">Hairstyling</option>
+                                <option value="Nail Art">Nail Art</option>
+                                <option value="Beauty Treatment">Beauty Treatment</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="special-requests" placeholder="Special Requests or Notes" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="calendar">
+                <div class="calendar-header">
+                    <button id="prev-month" class="btn"><i class="fas fa-chevron-left"></i></button>
+                    <h3 id="current-month">November 2023</h3>
+                    <button id="next-month" class="btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="calendar-grid">
+                    <div class="calendar-day">Sun</div>
+                    <div class="calendar-day">Mon</div>
+                    <div class="calendar-day">Tue</div>
+                    <div class="calendar-day">Wed</div>
+                    <div class="calendar-day">Thu</div>
+                    <div class="calendar-day">Fri</div>
+                    <div class="calendar-day">Sat</div>
+                </div>
+            </div>
+            <div class="time-slots">
+                <h3 style="text-align: center; margin-bottom: 20px;">Available Time Slots</h3>
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <button class="btn" id="confirm-appointment">Confirm Appointment</button>
+            </div>
+        </div>
+    </div>
+    <section class="portfolio" id="portfolio">
+        <div class="container content-over-particles">
+            <div class="section-title">
+                <h2>Our Portfolio</h2>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="bridal">Bridal</button>
+                <button class="filter-btn" data-filter="engagement">Engagement</button>
+                <button class="filter-btn" data-filter="party">Party</button>
+                <button class="filter-btn" data-filter="hairstyle">Hairstyle</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="bridal">
+                    <img src="images/bridal-4.jpg" alt="Bridal Makeup">
+                    <div class="portfolio-overlay">
+                        <h3>Traditional Bridal Look</h3>
+                        <p>Elegant makeup with traditional jewelry and intricate hairstyling</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="engagement">
+                    <img src="images/engagement-4.jpg" alt="Engagement Makeup">
+                    <div class="portfolio-overlay">
+                        <h3>Soft Engagement Look</h3>
+                        <p>Natural makeup with soft highlights and delicate accessories</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="party">
+                    <img src="images/party.jpg" alt="Party Makeup">
+                    <div class="portfolio-overlay">
+                        <h3>Glamorous Party Look</h3>
+                        <p>Bold eyes with statement lips and contemporary hairstyling</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="hairstyle">
+                    <img src="images/engagement-5.jpg" alt="Hairstyle">
+                    <div class="portfolio-overlay">
+                        <h3>Elegant Updo</h3>
+                        <p>Sophisticated hairstyle for special events with delicate hair accessories</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="bridal">
+                    <img src="images/bridal-3.jpg" alt="Bridal Makeup">
+                    <div class="portfolio-overlay">
+                        <h3>Contemporary Bridal</h3>
+                        <p>Modern twist on traditional bridal makeup with bold accents</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="engagement">
+                    <img src="images/engagement-4.jpg" alt="Engagement Makeup">
+                    <div class="portfolio-overlay">
+                        <h3>Radiant Engagement</h3>
+                        <p>Glowing skin with soft contouring and romantic hairstyling</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="engagement">
+                    <img src="images/party-3.jpg" alt="Engagement Makeup">
+                    <div class="portfolio-overlay">
+                        <h3>Radiant Party</h3>
+                        <p>Glowing skin with soft contouring and romantic hairstyling.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="engagement">
+                    <img src="images/hairstyle.png" alt="Engagement Makeup">
+                    <div class="portfolio-overlay">
+                        <h3>Radiant Hairstyling</h3>
+                        <p>Glowing skin with soft contouring and romantic hairstyling</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials" id="testimonials">
+        <div class="container content-over-particles">
+            <div class="section-title">
+                <h2>Client Testimonials</h2>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-item">
+                    <p class="testimonial-text">Poonam did an incredible job on my wedding day! She understood exactly the look I wanted and made me feel so beautiful and confident. Her attention to detail is remarkable! The makeup stayed perfect throughout the entire day and night.</p>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="images/party-1.jpg" alt="Client">
+                        </div>
+                        <div class="author-info">
+                            <h4>Priya Sharma</h4>
+                            <p>Bride</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container content-over-particles">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Studio Location</h3>
+                            <p>123 Beauty Street, Makeup District<br>New Delhi, India 110001</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Phone Number</h3>
+                            <p>+91 98765 43210</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Email Address</h3>
+                            <p>info@marpstudio.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Working Hours</h3>
+                            <p>Monday - Saturday: 9:00 AM - 7:00 PM<br>Sunday: By Appointment Only</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" required>
+                                <option value="" disabled selected>Select Service</option>
+                                <option value="bridal">Bridal Makeup</option>
+                                <option value="engagement">Engagement Makeup</option>
+                                <option value="party">Party Makeup</option>
+                                <option value="hairstyle">Hairstyling</option>
+                                <option value="beauty">Beauty Work</option>
+                                <option value="nailart">Nail Art</option>
+                                <option value="package">Complete Package</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container content-over-particles">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>MARP Studio</h3>
+                    <p>Professional makeup, hairstyling, and bodywork services by Poonam Rohilla. Enhancing your natural beauty for every special occasion with artistry and precision.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Bridal Makeup</a></li>
+                        <li><a href="#">Engagement Makeup</a></li>
+                        <li><a href="#">Party Makeup</a></li>
+                        <li><a href="#">Hairstyling</a></li>
+                        <li><a href="#">Beauty Work</a></li>
+                        <li><a href="#">Nail Art</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 MARP Studio | Poonam Rohilla. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
