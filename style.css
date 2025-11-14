@@ -400,7 +400,7 @@ header.scrolled {
 }
 
 .service-img {
-    height: 220px;
+    height: 300px;
     overflow: hidden;
     position: relative;
 }
@@ -1441,7 +1441,7 @@ footer {
     }
 
     .portfolio-item {
-        height: 250px;
+        height: 400px;
     }
 
     .testimonial-item {
