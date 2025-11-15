@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MARP Studio | Poonam Rohilla | Luxury Beauty Services</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div id="particles-js"></div>
     <div class="notification" id="notification">
@@ -18,13 +23,13 @@
             <nav class="navbar">
                 <a href="#" class="logo">MARP <span>Studio</span></a>
                 <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#" id="appointment-link">Appointment</a></li>
+                    <li><a href="#home" data-page="home">Home</a></li>
+                    <li><a href="#about" data-page="home">About</a></li>
+                    <li><a href="#services" data-page="home">Services</a></li>
+                    <li><a href="#portfolio" data-page="home">Portfolio</a></li>
+                    <li><a href="#testimonials" data-page="home">Testimonials</a></li>
+                    <li><a href="#contact" data-page="home">Contact</a></li>
+                    <li><a href="#" id="appointment-link" data-page="appointment">Appointment</a></li>
                 </ul>
                 <button class="hamburger">
                     <i class="fas fa-bars"></i>
@@ -32,12 +37,13 @@
             </nav>
         </div>
     </header>
-<section class="hero" id="home">
+    <section class="hero" id="home">
         <div class="container content-over-particles">
             <div class="hero-content">
                 <h1>Enhance Your Natural Beauty</h1>
-                <p>Welcome to MARP Studio, where professional makeup artists creates stunning looks for every occasion. Experience the perfect blend of artistry and elegance.</p>
-                <a href="#" class="btn" id="hero-appointment">Book Appointment</a>
+                <p>Welcome to MARP Studio, where professional makeup artists creates stunning looks for every occasion.
+                    Experience the perfect blend of artistry and elegance.</p>
+                <a href="#" class="btn" id="hero-appointment">Book An Appointment</a>
             </div>
         </div>
     </section>
@@ -52,8 +58,14 @@
                 </div>
                 <div class="about-text">
                     <h3>Professional Makeup Artist & Beauty Expert</h3>
-                    <p>With over 5+ years of experience in the beauty industry,I Poonam Rohilla has established MARP Studio as a premier destination for makeup, hairstyling, and bodywork services.My passion for enhancing natural beauty and attention to detail has made me a sought-after artist for brides, celebrities, and clients seeking exceptional beauty services.</p>
-                    <p>I continuously updates hmy skills with the latest techniques and trends, ensuring that every client receives personalized, high-quality service that exceeds expectations.My artistic vision and dedication to perfection have earned me a reputation as one of the most talented makeup artists in the industry.</p>
+                    <p>With over 5+ years of experience in the beauty industry,I Poonam Rohilla has established MARP
+                        Studio as a premier destination for makeup, hairstyling, and bodywork services.My passion for
+                        enhancing natural beauty and attention to detail has made me a sought-after artist for brides,
+                        celebrities, and clients seeking exceptional beauty services.</p>
+                    <p>I continuously updates hmy skills with the latest techniques and trends, ensuring that every
+                        client receives personalized, high-quality service that exceeds expectations.My artistic vision
+                        and dedication to perfection have earned me a reputation as one of the most talented makeup
+                        artists in the industry.</p>
                     <a href="#services" class="btn">Explore Services</a>
                 </div>
             </div>
@@ -71,7 +83,9 @@
                     </div>
                     <div class="service-content">
                         <h3>Makeup Services</h3>
-                        <p>Professional makeup application for all occasions, tailored to enhance your natural features and complement your style. We use premium products to ensure long-lasting, flawless results.</p>
+                        <p>Professional makeup application for all occasions, tailored to enhance your natural features
+                            and complement your style. We use premium products to ensure long-lasting, flawless results.
+                        </p>
                         <ul class="service-list">
                             <li>Bridal Makeup</li>
                             <li>Engagement Makeup</li>
@@ -89,7 +103,9 @@
                     </div>
                     <div class="service-content">
                         <h3>Hairstyle Services</h3>
-                        <p>Expert hairstyling that complements your makeup and outfit, creating a complete, polished look for your special day. From elegant updos to flowing curls, we create the perfect style for you.</p>
+                        <p>Expert hairstyling that complements your makeup and outfit, creating a complete, polished
+                            look for your special day. From elegant updos to flowing curls, we create the perfect style
+                            for you.</p>
                         <ul class="service-list">
                             <li>Bridal Hairstyles</li>
                             <li>Engagement Hairstyles</li>
@@ -107,7 +123,8 @@
                     </div>
                     <div class="service-content">
                         <h3>Pre-Wedding Services</h3>
-                        <p>Complete bridal preparation packages to ensure you look and feel your absolute best on your special day. Our comprehensive services cover everything from skincare to final touches.</p>
+                        <p>Complete bridal preparation packages to ensure you look and feel your absolute best on your
+                            special day. Our comprehensive services cover everything from skincare to final touches.</p>
                         <ul class="service-list">
                             <li>Bridal Packages</li>
                             <li>Groom Packages</li>
@@ -121,14 +138,15 @@
                 </div>
                 <div class="service-card">
                     <div class="service-img">
-                        <img src="images/engagement-3.jpg" alt="Destination Services">
+                        <img src="images/engagement-1.jpg" alt="Destination Services">
                     </div>
                     <div class="service-content">
                         <h3>Destination Services</h3>
-                        <p>Travel with us to your dream destination for a perfect wedding or special event. We bring our expertise and premium products to create magical moments wherever you are.</p>
+                        <p>Travel with us to your dream destination for a perfect wedding or special event. We bring our
+                            expertise and premium products to create magical moments wherever you are.</p>
                         <ul class="service-list">
                             <li>Destination Weddings</li>
-                            <li>International Events</li>
+                            <li>Long Weekend Events</li>
                             <li>Beach Weddings</li>
                             <li>Mountain Weddings</li>
                         </ul>
@@ -139,11 +157,13 @@
                 </div>
                 <div class="service-card">
                     <div class="service-img">
-                        <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&q=80" alt="Beauty Work Services">
+                        <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&q=80"
+                            alt="Beauty Work Services">
                     </div>
                     <div class="service-content">
                         <h3>Beauty Work</h3>
-                        <p>Pampering treatments to prepare your skin for special occasions, ensuring you look and feel your absolute best. Our luxurious treatments will leave your skin glowing and radiant.</p>
+                        <p>Pampering treatments to prepare your skin for special occasions, ensuring you look and feel
+                            your absolute best. These treatments will leave your skin glowing and radiant.</p>
                         <ul class="service-list">
                             <li>Skin Treatments</li>
                             <li>Body Polishing</li>
@@ -157,11 +177,13 @@
                 </div>
                 <div class="service-card">
                     <div class="service-img">
-                        <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&q=80" alt="Nail Art Services">
+                        <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&q=80"
+                            alt="Nail Art Services">
                     </div>
                     <div class="service-content">
                         <h3>Nail Art</h3>
-                        <p>Creative and elegant nail designs to complement your overall look. From simple elegance to intricate designs, we create beautiful nails that complete your style.</p>
+                        <p>Creative and elegant nail designs to complement your overall look. From simple elegance to
+                            intricate designs, we create beautiful nails that complete your style.</p>
                         <ul class="service-list">
                             <li>Bridal Nail Art</li>
                             <li>Gel Manicures</li>
@@ -178,61 +200,552 @@
     </section>
     <div id="makeup-detail" class="service-detail">
         <div class="container content-over-particles">
+            <button class="btn back-btn" onclick="backToMain()">
+                <i class="fas fa-arrow-left"></i> Back to Services
+            </button>
             <div class="section-title">
                 <h2>Makeup Services</h2>
             </div>
-            <div class="service-subtypes">
-                <div class="service-subtype">
-                    <i class="fas fa-heart"></i>
-                    <h3>Bridal Normal</h3>
-                    <p>Traditional bridal makeup with classic elegance, perfect for traditional ceremonies and family functions.</p>
-                    <div class="price">Starting at ₹15,000</div>
-                    <button class="btn book-service-btn" data-service="Bridal Normal Makeup">Book Appointment</button>
+            <p class="service-description">Professional makeup application for all occasions, tailored to enhance your
+                natural features and complement your style.</p>
+            <div class="subtype-category">
+                <h3>Bridal Makeup Services</h3>
+                <p>Complete bridal makeup packages designed to make you look stunning on your special day</p>
+                <div class="service-subtypes">
+                    <div class="service-subtype">
+                        <i class="fas fa-heart"></i>
+                        <h3>Bridal Normal Makeup</h3>
+                        <p>Traditional makeup with classic elegance, perfect for traditional ceremonies</p>
+                        <div class="price">₹10,000</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 2-3 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Traditional look</li>
+                            <li><i class="fas fa-check"></i> Long-lasting</li>
+                            <li><i class="fas fa-check"></i> Touch-up kit</li>
+                            <li><i class="fas fa-check"></i> Classic elegance</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Bridal Normal Makeup">Book
+                            Appointment</button>
+                    </div>
+                    <div class="service-subtype">
+                        <i class="fa-solid fa-photo-film"></i>
+                        <h3>Bridal HD<br> Makeup</h3>
+                        <p>High-definition makeup style that looks flawless in every photos and videos</p>
+                        <div class="price">₹12,000</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 3-4 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> HD Finish</li>
+                            <li><i class="fas fa-check"></i> Photoshoot ready</li>
+                            <li><i class="fas fa-check"></i> Waterproof</li>
+                            <li><i class="fas fa-check"></i> 12+ hours longevity</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Bridal HD Makeup">Book Appointment</button>
+                    </div>
+                    <div class="service-subtype">
+                        <i class="fas fa-spray-can"></i>
+                        <h3>Bridal Airbrush Makeup</h3>
+                        <p>Flawless, lightweight airbrush makeup that provides even coverage</p>
+                        <div class="price">₹15,000</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 4-5 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Airbrush technique</li>
+                            <li><i class="fas fa-check"></i> Lightweight feel</li>
+                            <li><i class="fas fa-check"></i> Perfect coverage</li>
+                            <li><i class="fas fa-check"></i> All-day wear</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Bridal Airbrush Makeup">Book
+                            Appointment</button>
+                    </div>
+                    <div class="service-subtype">
+                        <i class="fas fa-star"></i>
+                        <h3>Bridal Celebrity Makeup</h3>
+                        <p>Red carpet glamour with premium products and techniques</p>
+                        <div class="price">₹18,000</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 5-6 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Premium products</li>
+                            <li><i class="fas fa-check"></i> Celebrity style</li>
+                            <li><i class="fas fa-check"></i> Luxury finish</li>
+                            <li><i class="fas fa-check"></i> Personal consultation</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Bridal Celebrity Makeup">Book
+                            Appointment</button>
+                    </div>
+                    <div class="service-subtype">
+                        <i class="fas fa-gem"></i>
+                        <h3>Bridal Signature Makeup</h3>
+                        <p>Red carpet glamour with premium signature style and products</p>
+                        <div class="price">₹20,000</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 5-6 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Signautre Look</li>
+                            <li><i class="fas fa-check"></i> Premium products</li>
+                            <li><i class="fas fa-check"></i> Luxury finish</li>
+                            <li><i class="fas fa-check"></i> Personal consultation</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Bridal Celebrity Makeup">Book
+                            Appointment</button>
+                    </div>
                 </div>
-                <div class="service-subtype">
-                    <i class="fas fa-gem"></i>
-                    <h3>Bridal HD</h3>
-                    <p>High-definition makeup that looks flawless in photos and videos, with long-lasting coverage.</p>
-                    <div class="price">Starting at ₹20,000</div>
-                    <button class="btn book-service-btn" data-service="Bridal HD Makeup">Book Appointment</button>
+            </div>
+            <div class="subtype-category">
+                <h3>Engagement Makeup</h3>
+                <p>Romantic and radiant makeup for your engagement ceremony</p>
+                <div class="service-subtypes">
+                    <div class="service-subtype">
+                        <i class="fas fa-ring"></i>
+                        <h3>Engagement Glam Makeup</h3>
+                        <p>Elegant engagement makeup with soft glamour and romantic tones</p>
+                        <div class="price">₹8,000</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 2 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Soft glam</li>
+                            <li><i class="fas fa-check"></i> Romantic tones</li>
+                            <li><i class="fas fa-check"></i> Photo-ready</li>
+                            <li><i class="fas fa-check"></i> Elegant finish</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Engagement Glam Makeup">Book
+                            Appointment</button>
+                    </div>
+                    <div class="service-subtype">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Engagement HD Makeup</h3>
+                        <p>Natural and fresh engagement look that enhances your features</p>
+                        <div class="price">₹10,000</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 2 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Natural finish</li>
+                            <li><i class="fas fa-check"></i> Skin enhancement</li>
+                            <li><i class="fas fa-check"></i> Subtle glow</li>
+                            <li><i class="fas fa-check"></i> Fresh look</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Engagement Natural Makeup">Book
+                            Appointment</button>
+                    </div>
+                    <div class="service-subtype">
+                        <i class="fa-solid fa-spray-can-sparkles"></i>
+                        <h3>Engagement Airbrush Makeup</h3>
+                        <p>Airbrush Ligghtweight engagement look that enhances your skin</p>
+                        <div class="price">₹12,000</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 2-3 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Airbrush technique</li>
+                            <li><i class="fas fa-check"></i> Skin enhancement</li>
+                            <li><i class="fas fa-check"></i> Lightweight feel</li>
+                            <li><i class="fas fa-check"></i> Perfect Coverage</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Engagement Natural Makeup">Book
+                            Appointment</button>
+                    </div>
+                    <div class="service-subtype">
+                        <i class="fa-solid fa-face-grin-stars"></i>
+                        <h3>Engagement Celebrity Makeup</h3>
+                        <p>Celebrity style engagement look that looks fresh and premium</p>
+                        <div class="price">₹15,000</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 3-4 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Luxury finish</li>
+                            <li><i class="fas fa-check"></i> Premium Look</li>
+                            <li><i class="fas fa-check"></i> Celebrity Style</li>
+                            <li><i class="fas fa-check"></i> Fresh look</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Engagement Natural Makeup">Book
+                            Appointment</button>
+                    </div>
+                    <div class="service-subtype">
+                        <i class="fa-solid fa-pen-fancy"></i>
+                        <h3>Engagement Signature Makeup</h3>
+                        <p>Highly effective engagement look that looks premium with premium products</p>
+                        <div class="price">₹18,000</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 3-4 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Highly Effective</li>
+                            <li><i class="fas fa-check"></i> Premium products</li>
+                            <li><i class="fas fa-check"></i> Signature Look</li>
+                            <li><i class="fas fa-check"></i> Full Day coverage</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Engagement Natural Makeup">Book
+                            Appointment</button>
+                    </div>
                 </div>
-                <div class="service-subtype">
-                    <i class="fas fa-spray-can"></i>
-                    <h3>Bridal Airbrush</h3>
-                    <p>Flawless, lightweight airbrush makeup that provides even coverage and lasts all day.</p>
-                    <div class="price">Starting at ₹25,000</div>
-                    <button class="btn book-service-btn" data-service="Bridal Airbrush Makeup">Book Appointment</button>
+            </div>
+            <div class="subtype-category">
+                <h3>Party Makeup</h3>
+                <p>Romantic and radiant makeup for your overall parties</p>
+                <div class="service-subtypes">
+                    <div class="service-subtype">
+                        <i class="fa-solid fa-champagne-glasses"></i>
+                        <h3>Party Normal Makeup</h3>
+                        <p>Normal party makeup with soft glamour and romantic tones</p>
+                        <div class="price">₹2,500</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 2 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Soft glam</li>
+                            <li><i class="fas fa-check"></i> Romantic tones</li>
+                            <li><i class="fas fa-check"></i> Photo-ready</li>
+                            <li><i class="fas fa-check"></i> Elegant finish</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Engagement Glam Makeup">Book
+                            Appointment</button>
+                    </div>
+                    <div class="service-subtype">
+                        <i class="fa-solid fa-camera-retro"></i>
+                        <h3>Party HD<br> Makeup</h3>
+                        <p>Natural and fresh party look that enhances your features in between</p>
+                        <div class="price">₹3,500</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 2 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Natural finish</li>
+                            <li><i class="fas fa-check"></i> Skin enhancement</li>
+                            <li><i class="fas fa-check"></i> Subtle glow</li>
+                            <li><i class="fas fa-check"></i> Fresh look</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Engagement Natural Makeup">Book
+                            Appointment</button>
+                    </div>
+                    <div class="service-subtype">
+                        <i class="fa-solid fa-face-grin-wink"></i>
+                        <h3>Party Airbrush Makeup</h3>
+                        <p>A lightweight airbrush techniche look that enhances your skin</p>
+                        <div class="price">₹5,000</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 2-3 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Airbrush technique</li>
+                            <li><i class="fas fa-check"></i> Skin enhancement</li>
+                            <li><i class="fas fa-check"></i> Lightweight feel</li>
+                            <li><i class="fas fa-check"></i> Perfect Coverage</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Engagement Natural Makeup">Book
+                            Appointment</button>
+                    </div>
                 </div>
-                <div class="service-subtype">
-                    <i class="fas fa-star"></i>
-                    <h3>Bridal Celebrity</h3>
-                    <p>Red carpet glamour with premium products and techniques used by celebrities.</p>
-                    <div class="price">Starting at ₹35,000</div>
-                    <button class="btn book-service-btn" data-service="Bridal Celebrity Makeup">Book Appointment</button>
+            </div>
+            <div class="subtype-category">
+                <h3>Haldi Makeup</h3>
+                <p>Radiant and Glamourous Makeup for your haldi ceremony</p>
+                <div class="service-subtypes">
+                    <div class="service-subtype">
+                        <i class="fas fa-ring"></i>
+                        <h3>Engagement Glam Makeup</h3>
+                        <p>Elegant engagement makeup with soft glamour and romantic tones</p>
+                        <div class="price">₹8,000</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 2 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Soft glam</li>
+                            <li><i class="fas fa-check"></i> Romantic tones</li>
+                            <li><i class="fas fa-check"></i> Photo-ready</li>
+                            <li><i class="fas fa-check"></i> Elegant finish</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Engagement Glam Makeup">Book
+                            Appointment</button>
+                    </div>
+                    <div class="service-subtype">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Engagement Natural Makeup</h3>
+                        <p>Natural and fresh engagement look that enhances your features</p>
+                        <div class="price">₹10,000</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 2 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Natural finish</li>
+                            <li><i class="fas fa-check"></i> Skin enhancement</li>
+                            <li><i class="fas fa-check"></i> Subtle glow</li>
+                            <li><i class="fas fa-check"></i> Fresh look</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Engagement Natural Makeup">Book
+                            Appointment</button>
+                    </div>
+                    <div class="service-subtype">
+                        <i class="fa-solid fa-spray-can-sparkles"></i>
+                        <h3>Engagement Airbrush Makeup</h3>
+                        <p>Natural and fresh engagement look that enhances your features</p>
+                        <div class="price">₹12,000</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 2-3 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Airrush technique</li>
+                            <li><i class="fas fa-check"></i> Skin enhancement</li>
+                            <li><i class="fas fa-check"></i> Lightweight feel</li>
+                            <li><i class="fas fa-check"></i> Perfect Coverage</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Engagement Natural Makeup">Book
+                            Appointment</button>
+                    </div>
                 </div>
-                <div class="service-subtype">
-                    <i class="fas fa-crown"></i>
-                    <h3>Bridal Signature</h3>
-                    <p>Poonam's exclusive signature bridal look, customized to enhance your unique features.</p>
-                    <div class="price">Starting at ₹30,000</div>
-                    <button class="btn book-service-btn" data-service="Bridal Signature Makeup">Book Appointment</button>
+            </div>
+        </div>
+    </div>
+    <div id="hairstyles-detail" class="service-detail">
+        <div class="container content-over-particles">
+            <button class="btn back-btn" onclick="backToMain()">
+                <i class="fas fa-arrow-left"></i> Back to Services
+            </button>
+            <div class="section-title">
+                <h2>Hairstyle Services</h2>
+            </div>
+            <p class="service-description">Expert hairstyling that complements your makeup and outfit, creating a
+                complete, polished look.</p>
+
+            <div class="subtype-category">
+                <h3>Bridal Hairstyles</h3>
+                <p>Elegant and timeless bridal hairstyles that complete your wedding day look</p>
+                <div class="service-subtypes">
+                    <div class="service-subtype">
+                        <i class="fas fa-crown"></i>
+                        <h3>Traditional Bridal Updo</h3>
+                        <p>Classic Indian bridal updo with traditional jewelry placement</p>
+                        <div class="price">₹12,000</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 2-3 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Traditional style</li>
+                            <li><i class="fas fa-check"></i> Jewelry friendly</li>
+                            <li><i class="fas fa-check"></i> Secure hold</li>
+                            <li><i class="fas fa-check"></i> Classic elegance</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Traditional Bridal Updo">Book
+                            Appointment</button>
+                    </div>
+                    <div class="service-subtype">
+                        <i class="fas fa-star"></i>
+                        <h3>Modern Bridal Waves</h3>
+                        <p>Contemporary bridal look with soft waves and modern accessories</p>
+                        <div class="price">₹15,000</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 2 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Modern style</li>
+                            <li><i class="fas fa-check"></i> Soft waves</li>
+                            <li><i class="fas fa-check"></i> Contemporary</li>
+                            <li><i class="fas fa-check"></i> Versatile</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Modern Bridal Waves">Book
+                            Appointment</button>
+                    </div>
                 </div>
-                <div class="service-subtype">
-                    <i class="fas fa-ring"></i>
-                    <h3>Engagement Makeup</h3>
-                    <p>Romantic and radiant makeup for your engagement ceremony, designed for photography.</p>
-                    <div class="price">Starting at ₹12,000</div>
-                    <button class="btn book-service-btn" data-service="Engagement Makeup">Book Appointment</button>
+            </div>
+        </div>
+    </div>
+    <div id="prewedding-detail" class="service-detail">
+        <div class="container content-over-particles">
+            <button class="btn back-btn" onclick="backToMain()">
+                <i class="fas fa-arrow-left"></i> Back to Services
+            </button>
+            <div class="section-title">
+                <h2>Pre-Wedding Services</h2>
+            </div>
+            <p class="service-description">Complete bridal preparation packages to ensure you look and feel your
+                absolute best.</p>
+
+            <div class="subtype-category">
+                <h3>Bridal Packages</h3>
+                <p>Comprehensive bridal packages including trials and full-day services</p>
+                <div class="service-subtypes">
+                    <div class="service-subtype">
+                        <i class="fas fa-crown"></i>
+                        <h3>Complete Bridal Package</h3>
+                        <p>Full bridal package including trials, main day makeup and hairstyling</p>
+                        <div class="price">₹45,000</div>
+                        <div class="duration"><i class="fas fa-clock"></i> Multiple sessions</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> 2 Trials</li>
+                            <li><i class="fas fa-check"></i> Full day service</li>
+                            <li><i class="fas fa-check"></i> Touch-ups</li>
+                            <li><i class="fas fa-check"></i> Emergency kit</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Complete Bridal Package">Book
+                            Appointment</button>
+                    </div>
+                    <div class="service-subtype">
+                        <i class="fas fa-clipboard-check"></i>
+                        <h3>Bridal Trial Session</h3>
+                        <p>Practice session to finalize your bridal look before the wedding</p>
+                        <div class="price">₹8,000</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 3 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Look testing</li>
+                            <li><i class="fas fa-check"></i> Adjustments</li>
+                            <li><i class="fas fa-check"></i> Photo session</li>
+                            <li><i class="fas fa-check"></i> Consultation</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Bridal Trial Session">Book
+                            Appointment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="destination-detail" class="service-detail">
+        <div class="container content-over-particles">
+            <button class="btn back-btn" onclick="backToMain()">
+                <i class="fas fa-arrow-left"></i> Back to Services
+            </button>
+            <div class="section-title">
+                <h2>Destination Services</h2>
+            </div>
+            <p class="service-description">Travel with us to your dream destination for a perfect wedding or special
+                event.</p>
+            <div class="subtype-category">
+                <h3>Domestic Destination</h3>
+                <p>Services for weddings and events across India</p>
+                <div class="service-subtypes">
+                    <div class="service-subtype">
+                        <i class="fas fa-umbrella-beach"></i>
+                        <h3>Goa Beach Wedding</h3>
+                        <p>Complete destination wedding services in Goa</p>
+                        <div class="price">₹75,000+</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 3-4 days</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Travel included</li>
+                            <li><i class="fas fa-check"></i> Beach appropriate</li>
+                            <li><i class="fas fa-check"></i> Multiple events</li>
+                            <li><i class="fas fa-check"></i> Destination expertise</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Goa Beach Wedding">Book Appointment</button>
+                    </div>
+                    <div class="service-subtype">
+                        <i class="fas fa-monument"></i>
+                        <h3>Udaipur Palace Wedding</h3>
+                        <p>Royal wedding services in Udaipur palaces</p>
+                        <div class="price">₹85,000+</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 3-4 days</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Royal theme</li>
+                            <li><i class="fas fa-check"></i> Palace appropriate</li>
+                            <li><i class="fas fa-check"></i> Traditional styling</li>
+                            <li><i class="fas fa-check"></i> Luxury service</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Udaipur Palace Wedding">Book
+                            Appointment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="beauty-detail" class="service-detail">
+        <div class="container content-over-particles">
+            <button class="btn back-btn" onclick="backToMain()">
+                <i class="fas fa-arrow-left"></i> Back to Services
+            </button>
+            <div class="section-title">
+                <h2>Beauty Work</h2>
+            </div>
+            <p class="service-description">Pampering treatments to prepare your skin for special occasions.</p>
+            <div class="subtype-category">
+                <h3>Skin Treatments</h3>
+                <p>Professional skincare treatments for radiant, glowing skin</p>
+                <div class="service-subtypes">
+                    <div class="service-subtype">
+                        <i class="fas fa-spa"></i>
+                        <h3>Basic Beauty<br> Work</h3>
+                        <p>Specialized facial treatment for normal party or house look</p>
+                        <div class="price">₹6,999</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 4 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> 1 Full Body Waxing</li>
+                            <li><i class="fas fa-check"></i> 1 Full Body Polishing</li>
+                            <li><i class="fas fa-check"></i> 1 Manicure</li>
+                            <li><i class="fas fa-check"></i> 1 Pedicure</li>
+                            <li><i class="fas fa-check"></i> 1 Bridal Glow Facial</li>
+                            <li><i class="fas fa-check"></i> 1 Hand / Feet Gel paint</li>
+                            <li><i class="fas fa-check"></i> 1 Thread Work</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Bridal Glow Facial">Book Appointment</button>
+                    </div>
+                    <div class="service-subtype">
+                        <i class="fas fa-gem"></i>
+                        <h3>Advanced Beauty Work</h3>
+                        <p>Advanced gold-infused facial for ultimate skin rejuvenation</p>
+                        <div class="price">₹10,999</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 5 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> 2 Facial (O3)</li>
+                            <li><i class="fas fa-check"></i> 2 Pedicure</li>
+                            <li><i class="fas fa-check"></i> 2 Manicure</li>
+                            <li><i class="fas fa-check"></i> 1 Hair Spa</li>
+                            <li><i class="fas fa-check"></i> 1 Full Body Waxing</li>
+                            <li><i class="fas fa-check"></i> 1 Full Body Polishing</li>
+                            <li><i class="fas fa-check"></i> 1 Full Body Bleach</li>
+                            <li><i class="fas fa-check"></i> 1 Hand / Feet Gel Paint</li>
+                            <li><i class="fas fa-check"></i> 1 Thread Work</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Gold Facial">Book Appointment</button>
+                    </div>
+                    <div class="service-subtype">
+                        <i class="fa-solid fa-crown"></i>
+                        <h3>Luxury Beauty<br>Work</h3>
+                        <p>Luxury full body beauty work for ultimate skin rejuvenation</p>
+                        <div class="price">₹15,999</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 6 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> 3 Facial (O3)</li>
+                            <li><i class="fas fa-check"></i> 3 Pedicure</li>
+                            <li><i class="fas fa-check"></i> 3 Manicure</li>
+                            <li><i class="fas fa-check"></i> 1 Clean up</li>
+                            <li><i class="fas fa-check"></i> 1 Hair Spa</li>
+                            <li><i class="fas fa-check"></i> 1 Full Body Waxing + V Wax</li>
+                            <li><i class="fas fa-check"></i> 1 Full Body Polishing</li>
+                            <li><i class="fas fa-check"></i> 1 Full Body Bleach</li>
+                            <li><i class="fas fa-check"></i> 1 Hand / Feet Gel Paint</li>
+                            <li><i class="fas fa-check"></i> 1 Thread Work</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Gold Facial">Book Appointment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="nailart-detail" class="service-detail">
+        <div class="container content-over-particles">
+            <button class="btn back-btn" onclick="backToMain()">
+                <i class="fas fa-arrow-left"></i> Back to Services
+            </button>
+            <div class="section-title">
+                <h2>Nail Art</h2>
+            </div>
+            <p class="service-description">Creative and elegant nail designs to complement your overall look.</p>
+
+            <div class="subtype-category">
+                <h3>Bridal Nail Art</h3>
+                <p>Elegant nail designs perfect for brides</p>
+                <div class="service-subtypes">
+                    <div class="service-subtype">
+                        <i class="fas fa-ring"></i>
+                        <h3>Bridal French Manicure</h3>
+                        <p>Classic French manicure with bridal elegance</p>
+                        <div class="price">₹3,500</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 1.5 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> French style</li>
+                            <li><i class="fas fa-check"></i> Elegant</li>
+                            <li><i class="fas fa-check"></i> Timeless</li>
+                            <li><i class="fas fa-check"></i> Bridal appropriate</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Bridal French Manicure">Book
+                            Appointment</button>
+                    </div>
+                    <div class="service-subtype">
+                        <i class="fas fa-gem"></i>
+                        <h3>Bridal Stone Work</h3>
+                        <p>Luxurious nail art with stones and crystals</p>
+                        <div class="price">₹5,000</div>
+                        <div class="duration"><i class="fas fa-clock"></i> 2 hours</div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Stone detailing</li>
+                            <li><i class="fas fa-check"></i> Luxury look</li>
+                            <li><i class="fas fa-check"></i> Custom design</li>
+                            <li><i class="fas fa-check"></i> Premium finish</li>
+                        </ul>
+                        <button class="btn book-service-btn" data-service="Bridal Stone Work">Book Appointment</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div id="appointment-page" class="appointment-page">
         <div class="container content-over-particles">
+            <button class="btn back-btn" onclick="backToTop()">
+                <i class="fas fa-arrow-left"></i> Back to Main
+            </button>
             <div class="section-title">
                 <h2>Book Your Appointment</h2>
             </div>
-            
             <div class="appointment-form">
                 <h3>Your Information</h3>
                 <form id="appointmentForm">
@@ -241,12 +754,14 @@
                             <input type="text" class="form-control" id="client-name" placeholder="Full Name" required>
                         </div>
                         <div class="form-group">
-                            <input type="tel" class="form-control" id="client-phone" placeholder="Phone Number" required>
+                            <input type="tel" class="form-control" id="client-phone" placeholder="Phone Number"
+                                required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group">
-                            <input type="email" class="form-control" id="client-email" placeholder="Email Address" required>
+                            <input type="email" class="form-control" id="client-email" placeholder="Email Address"
+                                required>
                         </div>
                         <div class="form-group">
                             <select class="form-control" id="service-type" required>
@@ -256,20 +771,29 @@
                                 <option value="Bridal Airbrush Makeup">Bridal Airbrush Makeup</option>
                                 <option value="Bridal Celebrity Makeup">Bridal Celebrity Makeup</option>
                                 <option value="Bridal Signature Makeup">Bridal Signature Makeup</option>
-                                <option value="Engagement Makeup">Engagement Makeup</option>
-                                <option value="Party Makeup">Party Makeup</option>
+                                <option value="Engagement Makeup">Engagement Normal Makeup</option>
+                                <option value="Engagement Makeup">Engagement HD Makeup</option>
+                                <option value="Engagement Makeup">Engagement Airbrush Makeup</option>
+                                <option value="Engagement Makeup">Engagement Celebrity Makeup</option>
+                                <option value="Engagement Makeup">Engagement Signature Makeup</option>
+                                <option value="Party Makeup">Party Normal Makeup</option>
+                                <option value="Party Makeup">Party HD Makeup</option>
+                                <option value="Party Makeup">Party Airbrush Makeup</option>
                                 <option value="Hairstyling">Hairstyling</option>
+                                <option value="Beauty Treatment">Basic Beauty Work</option>
+                                <option value="Beauty Treatment">Advanced Beauty Work</option>
+                                <option value="Beauty Treatment">Luxury Beauty Work</option>
                                 <option value="Nail Art">Nail Art</option>
-                                <option value="Beauty Treatment">Beauty Treatment</option>
                             </select>
                         </div>
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" id="special-requests" placeholder="Special Requests or Notes" rows="3"></textarea>
+                        <textarea class="form-control" id="special-requests" placeholder="Special Requests or Notes"
+                            rows="3"></textarea>
                     </div>
                 </form>
             </div>
-            
+
             <div class="calendar">
                 <div class="calendar-header">
                     <button id="prev-month" class="btn"><i class="fas fa-chevron-left"></i></button>
@@ -343,7 +867,7 @@
                     </div>
                 </div>
                 <div class="portfolio-item" data-category="engagement">
-                    <img src="images/engagement-4.jpg" alt="Engagement Makeup">
+                    <img src="images/bridal-2.jpg" alt="Engagement Makeup">
                     <div class="portfolio-overlay">
                         <h3>Radiant Engagement</h3>
                         <p>Glowing skin with soft contouring and romantic hairstyling</p>
@@ -372,19 +896,92 @@
                 <h2>Client Testimonials</h2>
             </div>
             <div class="testimonial-slider">
-                <div class="testimonial-item">
-                    <p class="testimonial-text">Poonam did an incredible job on my wedding day! She understood exactly the look I wanted and made me feel so beautiful and confident. Her attention to detail is remarkable! The makeup stayed perfect throughout the entire day and night.</p>
-                    <div class="testimonial-author">
-                        <div class="author-img">
-                            <img src="images/party-1.jpg" alt="Client">
+                <div class="testimonial-track">
+                    <div class="testimonial-item active">
+                        <p class="testimonial-text">Poonam did an incredible job on my wedding day! She understood
+                            exactly the look I wanted and made me feel so beautiful and confident. Her attention to
+                            detail is remarkable! The makeup stayed perfect throughout the entire day and night.</p>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="images/bridal-2.jpg" alt="Priya Sharma">
+                            </div>
+                            <div class="author-info">
+                                <h4>Priya Sharma</h4>
+                                <p>Bride</p>
+                            </div>
                         </div>
-                        <div class="author-info">
-                            <h4>Priya Sharma</h4>
-                            <p>Bride</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <p class="testimonial-text">The engagement makeup by Poonam was absolutely stunning! She created
+                            such a romantic and natural look that photographed beautifully. Her professionalism and
+                            talent are unmatched. Highly recommend MARP Studio!</p>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="images/engagement-3.jpg" alt="Riya Kapoor">
+                            </div>
+                            <div class="author-info">
+                                <h4>Riya Kapoor</h4>
+                                <p>Engagement Client</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <p class="testimonial-text">I've been going to Poonam for all my special events for 3 years now.
+                            She always knows how to enhance my features while keeping the look fresh and modern. The
+                            airbrush makeup lasted through my entire reception without any touch-ups!</p>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="images/party-1.jpg" alt="Anjali Mehta">
+                            </div>
+                            <div class="author-info">
+                                <h4>Anjali Mehta</h4>
+                                <p>Regular Client</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <p class="testimonial-text">Poonam's destination wedding services are phenomenal! She traveled
+                            to Goa for our wedding and handled everything so professionally. The entire bridal party
+                            looked amazing. Worth every penny!</p>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="images/engagement-5.jpg" alt="Neha Singh">
+                            </div>
+                            <div class="author-info">
+                                <h4>Neha Singh</h4>
+                                <p>Destination Wedding</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <p class="testimonial-text">The pre-wedding package was comprehensive and worth every bit. The
+                            trial sessions helped us perfect the look, and on the wedding day, everything was flawless.
+                            Poonam is not just a makeup artist but a true artist!</p>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="images/bridal-1.jpg" alt="Sanjana Reddy">
+                            </div>
+                            <div class="author-info">
+                                <h4>Sanjana Reddy</h4>
+                                <p>Complete Bridal Package</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="testimonial-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+                <span class="dot" data-slide="3"></span>
+                <span class="dot" data-slide="4"></span>
+            </div>
+            <button class="testimonial-nav testimonial-prev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="testimonial-nav testimonial-next">
+                <i class="fas fa-chevron-right"></i>
+            </button>
         </div>
     </section>
     <section class="contact" id="contact">
@@ -400,7 +997,7 @@
                         </div>
                         <div class="info-text">
                             <h3>Studio Location</h3>
-                            <p>123 Beauty Street, Makeup District<br>New Delhi, India 110001</p>
+                            <p>1413/97, Trinagar, Ganeshpura<br>New Delhi, India 110035</p>
                         </div>
                     </div>
                     <div class="info-item">
@@ -409,7 +1006,7 @@
                         </div>
                         <div class="info-text">
                             <h3>Phone Number</h3>
-                            <p>+91 98765 43210</p>
+                            <p>+91 81689 35979</p>
                         </div>
                     </div>
                     <div class="info-item">
@@ -418,7 +1015,7 @@
                         </div>
                         <div class="info-text">
                             <h3>Email Address</h3>
-                            <p>info@marpstudio.com</p>
+                            <p>makeupartist.rp@gmail.com</p>
                         </div>
                     </div>
                     <div class="info-item">
@@ -427,7 +1024,7 @@
                         </div>
                         <div class="info-text">
                             <h3>Working Hours</h3>
-                            <p>Monday - Saturday: 9:00 AM - 7:00 PM<br>Sunday: By Appointment Only</p>
+                            <p>Monday - Saturday: 9:00 AM - 11:00 PM<br>Sunday: By Appointment Only</p>
                         </div>
                     </div>
                 </div>
@@ -463,17 +1060,41 @@
             </div>
         </div>
     </section>
+    <section class="map-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Find Us</h2>
+            </div>
+            <div class="simple-map-container">
+                <div class="map-wrapper">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.4202131089623!2d77.16046831145185!3d28.677073975538924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0324eec18b39%3A0x8394ec6805971c9a!2sMARP%20Studio%20.!5e0!3m2!1sen!2sus!4v1763195036321!5m2!1sen!2sus"
+                        width="100%" height="500" style="border:0; border-radius: 15px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="map-actions">
+                    <a href="https://maps.app.goo.gl/ivat7Ue6f5kHPGiF9"
+                        target="_blank" class="btn">
+                        <i class="fas fa-directions"></i> Get Directions
+                    </a>
+                    <a href="tel:+918168935979" class="btn btn-secondary">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="container content-over-particles">
             <div class="footer-content">
                 <div class="footer-col">
                     <h3>MARP Studio</h3>
-                    <p>Professional makeup, hairstyling, and bodywork services by Poonam Rohilla. Enhancing your natural beauty for every special occasion with artistry and precision.</p>
+                    <p>Professional makeup, hairstyling, and bodywork services by Poonam Rohilla. Enhancing your natural
+                        beauty for every special occasion with artistry and precision.</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/marp_studio?igsh=dmNmd25yMDVlbXl3"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="footer-col">
@@ -490,12 +1111,12 @@
                 <div class="footer-col">
                     <h3>Services</h3>
                     <ul class="footer-links">
-                        <li><a href="#">Bridal Makeup</a></li>
-                        <li><a href="#">Engagement Makeup</a></li>
-                        <li><a href="#">Party Makeup</a></li>
-                        <li><a href="#">Hairstyling</a></li>
-                        <li><a href="#">Beauty Work</a></li>
-                        <li><a href="#">Nail Art</a></li>
+                        <li><a href="#" class="footer-appointment-link">Book An Appointment</a></li>
+                        <li><a href="refund_page.html">Refund and Cancellation</a></li>
+                        <li><a href="faq.html">FAQ's</a></li>
+                        <li><a href="#">Privacy Policies</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Help and Support</a></li>
                     </ul>
                 </div>
             </div>
@@ -507,4 +1128,5 @@
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
