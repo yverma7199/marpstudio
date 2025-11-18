@@ -398,7 +398,7 @@ function showNotification(message, type = 'success') {
 function initEmailFunctionality() {
     const confirmAppointmentBtn = document.getElementById('confirm-appointment');
     if (!confirmAppointmentBtn) return;
-    const WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbyeXObgBqTR1WgwgxS93mDw3tyZmunaFVETHJ6pp1NcxcV87OPLdPZy7R2bVwyCVkACkQ/exec';
+    const WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbxuyCWzP05QA0jOgNXRNsNo6aAw4-OhacwZfpQ_pvb4ytKlZdyaBFi0OLIPR4OghT4s6w/exec';
     confirmAppointmentBtn.addEventListener('click', function() {
         console.log('🟡 Confirm appointment clicked');
         const selectedTimeSlot = document.querySelector('.time-slot.selected');
@@ -638,7 +638,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function testWebApp() {
-    const WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbzLaYrN9YqfRUCpJtF9VLEGu7Sqcll0a9hLkaSJdC_rp03avWHVFjAlkV5SwaDRzq7eAg/exec';
+    const WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbxuyCWzP05QA0jOgNXRNsNo6aAw4-OhacwZfpQ_pvb4ytKlZdyaBFi0OLIPR4OghT4s6w/exec';
     console.log('Testing Web App URL:', WEB_APP_URL);
     fetch(WEB_APP_URL)
         .then(response => response.text())
