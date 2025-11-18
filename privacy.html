@@ -20,12 +20,7 @@
                 <a href="index.html" class="logo">MARP <span>Studio</span></a>
                 <ul class="nav-links">
                     <li><a href="index.html#home">Home</a></li>
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="index.html#services">Services</a></li>
-                    <li><a href="index.html#portfolio">Portfolio</a></li>
-                    <li><a href="index.html#testimonials">Testimonials</a></li>
-                    <li><a href="index.html#contact">Contact</a></li>
-                    <li><a href="#" id="appointment-link">Appointment</a></li>
+                    <li><a href="privacy.html#contact">Contact</a></li>
                 </ul>
                 <button class="hamburger">
                     <i class="fas fa-bars"></i>
@@ -98,7 +93,7 @@
             </div>
         </div>
     </section>
-        <section class="contact" id="contact">
+    <section class="contact" id="contact">
         <div class="container content-over-particles">
             <div class="section-title">
                 <h2>Contact Us</h2>
@@ -225,7 +220,7 @@
                 <div class="footer-col">
                     <h3>Services</h3>
                     <ul class="footer-links">
-                        <li><a href="#" class="footer-appointment-link">Book Appointment</a></li>
+                        <li><a href="index.html" class="footer-appointment-link">Book An Appointment</a></li>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="refund_page.html">Refund and Cancellation</a></li>
                         <li><a href="faq.html">FAQs</a></li>
@@ -235,84 +230,12 @@
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2023 MARP Studio | Poonam Rohilla. All Rights Reserved.</p>
+                <p>&copy; 2023 MARP Studio | Poonam Rohilla. Designed and Developed by Yaman Verma. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="script.js"></script>
-    <div id="appointment-page" class="appointment-page">
-        <div class="container content-over-particles">
-            <button class="btn back-btn" onclick="backToMain()">
-                <i class="fas fa-arrow-left"></i> Back to Home
-            </button>
-            <div class="section-title">
-                <h2>Book Your Appointment</h2>
-            </div>
-
-            <div class="appointment-form">
-                <h3>Your Information</h3>
-                <form id="appointmentForm">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="client-name" placeholder="Full Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="tel" class="form-control" id="client-phone" placeholder="Phone Number"
-                                required>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="client-email" placeholder="Email Address"
-                                required>
-                        </div>
-                        <div class="form-group">
-                            <select class="form-control" id="service-type" required>
-                                <option value="" disabled selected>Select Service Type</option>
-                                <option value="Bridal Normal Makeup">Bridal Normal Makeup</option>
-                                <option value="Bridal HD Makeup">Bridal HD Makeup</option>
-                                <option value="Bridal Airbrush Makeup">Bridal Airbrush Makeup</option>
-                                <option value="Bridal Celebrity Makeup">Bridal Celebrity Makeup</option>
-                                <option value="Engagement Makeup">Engagement Makeup</option>
-                                <option value="Party Makeup">Party Makeup</option>
-                                <option value="Hairstyling">Hairstyling</option>
-                                <option value="Nail Art">Nail Art</option>
-                                <option value="Beauty Treatment">Beauty Treatment</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" id="special-requests" placeholder="Special Requests or Notes"
-                            rows="3"></textarea>
-                    </div>
-                </form>
-            </div>
-
-            <div class="calendar">
-                <div class="calendar-header">
-                    <button id="prev-month" class="btn"><i class="fas fa-chevron-left"></i></button>
-                    <h3 id="current-month">November 2023</h3>
-                    <button id="next-month" class="btn"><i class="fas fa-chevron-right"></i></button>
-                </div>
-                <div class="calendar-grid">
-                    <div class="calendar-day">Sun</div>
-                    <div class="calendar-day">Mon</div>
-                    <div class="calendar-day">Tue</div>
-                    <div class="calendar-day">Wed</div>
-                    <div class="calendar-day">Thu</div>
-                    <div class="calendar-day">Fri</div>
-                    <div class="calendar-day">Sat</div>
-                </div>
-            </div>
-            <div class="time-slots">
-                <h3 style="text-align: center; margin-bottom: 20px;">Available Time Slots</h3>
-            </div>
-            <div style="text-align: center; margin-top: 40px;">
-                <button class="btn" id="confirm-appointment">Confirm Appointment</button>
-            </div>
-        </div>
-    </div>
 </body>
 
 </html>
